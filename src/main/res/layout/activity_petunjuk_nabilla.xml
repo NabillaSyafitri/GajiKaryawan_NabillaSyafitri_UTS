@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".PetunjukNabilla">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PETUNJUK PENGGUNAAN"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Jalankan Aplikasi"
+        android:textSize="15sp"
+        android:textColor="#0BC88C"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Pilih Icon Gaji Pegawai untuk menjalankan simulasi"
+        android:textSize="15sp"
+        android:textColor="#0BC88C"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Pilih petunjuk penggunaan untuk cara penggunaan"
+        android:textSize="15sp"
+        android:textColor="#0BC88C"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Pilih Tentang Aplikasi untuk informasi tentang aplikasi"
+        android:textSize="15sp"
+        android:textColor="#0BC88C"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Pilih Exit untuk keluar aplikasi"
+        android:textSize="15sp"
+        android:textColor="#0BC88C"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+    </TextView>
+
+    <Button
+        android:id="@+id/btKembali"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kembali">
+    </Button>
+
+</LinearLayout>
